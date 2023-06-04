@@ -1,7 +1,7 @@
 package com.epam.conditions;
 
 public class SeasonDeterminer {
-    public String tellTheSeason(int monthNumber) {
+    public void tellTheSeason(int monthNumber) {
         String res;
         if (monthNumber == 1 || monthNumber == 2 || monthNumber == 12) {
             res = "Winter";
@@ -14,6 +14,6 @@ public class SeasonDeterminer {
         } else {
             res = "Wrong month number";
         }
-        return res;
+        System.out.println(res);
     }
 }

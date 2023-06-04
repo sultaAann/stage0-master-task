@@ -10,7 +10,7 @@ public class NumberReverter {
         nums[0] = nums[2];
         nums[2] = integer;
         for (String e: nums) {
-            System.out.println(e);
+            System.out.print(e);
         }
     }
 }
