@@ -19,11 +19,12 @@ public class DaysInMonth {
             put(11, 30);
             put(12, 31);
         }};
-        try {
-            System.out.println(daysInMonthDict.get(month));
-        } catch (Exception e) {
+
+        if (month > 12 || year < 0) {
             System.out.println("invalid date");
+            return;
         }
+        System.out.println(daysInMonthDict.get(month));
     }
 
     private static boolean is_leap_year(int year) {

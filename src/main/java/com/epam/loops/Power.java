@@ -1,5 +1,8 @@
 package com.epam.loops;
 
+import com.epam.OOP.Animal;
+import com.epam.OOP.Bird;
+
 public class Power {
 
     public void printPower(int numberToPrint, int power) {
@@ -10,7 +13,8 @@ public class Power {
     }
 
     public static void main(String[] args) {
-        new Power().printPower(-10, 3);
+        new Power().printPower(-10, 7);
+
     }
 
 }

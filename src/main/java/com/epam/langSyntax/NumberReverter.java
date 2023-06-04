@@ -1,6 +1,6 @@
 package com.epam.langSyntax;
 
-import java.util.Arrays;
+
 
 public class NumberReverter {
 
@@ -9,8 +9,10 @@ public class NumberReverter {
         String integer = nums[0];
         nums[0] = nums[2];
         nums[2] = integer;
+        String a="";
         for (String e: nums) {
-            System.out.print(e);
+            a+=e;
         }
+        System.out.println(a);
     }
 }
