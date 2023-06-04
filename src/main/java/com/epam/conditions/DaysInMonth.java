@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DaysInMonth {
-    public static void printDays(int year, int month) {
+    public void printDays(int year, int month) {
         Map<Integer, Integer> daysInMonthDict = new HashMap<>() {{
             put(1, 31);
             put(2, is_leap_year(year) ? 29 : 28);

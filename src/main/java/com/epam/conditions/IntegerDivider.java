@@ -1,7 +1,7 @@
 package com.epam.conditions;
 
 public class IntegerDivider {
-    public static void printCompletelyDivided(int dividend, int divider) {
+    public void printCompletelyDivided(int dividend, int divider) {
 
         int res = (dividend / divider) * divider;
         if (res == dividend) {

@@ -1,7 +1,7 @@
 package com.epam.conditions;
 
 public class TriangleSidesValidator {
-    public static String validate(double firstSide, double secondSide, double thirdSide) {
+    public String validate(double firstSide, double secondSide, double thirdSide) {
         if (firstSide + secondSide > thirdSide && firstSide + thirdSide > secondSide && secondSide + thirdSide > firstSide)  {
             return "this is a valid triangle";
         } else {

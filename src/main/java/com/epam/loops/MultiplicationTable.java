@@ -7,5 +7,4 @@ public class MultiplicationTable {
             System.out.println(numberTableToPrint + " * " + i + " = " + numberTableToPrint * i);
         }
     }
-
 }
