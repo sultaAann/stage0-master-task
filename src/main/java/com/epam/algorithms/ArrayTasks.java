@@ -56,7 +56,7 @@ public class ArrayTasks {
     public int findIndexOfNumber(int[] arr, int number) {
         int index = -1;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == number) index = i; break;
+            if (arr[i] == number) return i;
         }
         return index;
     }

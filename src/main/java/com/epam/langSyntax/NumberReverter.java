@@ -9,6 +9,8 @@ public class NumberReverter {
         String integer = nums[0];
         nums[0] = nums[2];
         nums[2] = integer;
-        System.out.println(Arrays.toString(nums));
+        for (String e: nums) {
+            System.out.println(e);
+        }
     }
 }

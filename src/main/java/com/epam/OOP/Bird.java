@@ -18,4 +18,8 @@ public class Bird extends Animal {
                 " It has %d %s and %s fur." +
                 " Moreover, it has 2 wings and can fly.", color, numberOfPaws, paw, (hasFur == true) ? "a" : "no");
     }
+
+    public Bird() {
+        super();
+    }
 }
