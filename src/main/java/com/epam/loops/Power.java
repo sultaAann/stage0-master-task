@@ -2,6 +2,9 @@ package com.epam.loops;
 
 import com.epam.OOP.Animal;
 import com.epam.OOP.Bird;
+import com.epam.algorithms.ArrayTasks;
+
+import java.util.Arrays;
 
 public class Power {
 

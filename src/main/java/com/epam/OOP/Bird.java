@@ -6,12 +6,12 @@ public class Bird extends Animal {
     private boolean hasFur;
 
     public Bird(String color, int numberOfPaws, boolean hasFur) {
-        super(color, numberOfPaws, hasFur);
         this.color = color;
         this.numberOfPaws = numberOfPaws;
         this.hasFur = hasFur;
     }
 
+    @Override
     public String getDescription() {
         String paw = numberOfPaws > 1 ? "paws": "paw";
         return String.format("This animal is mostly %s." +
